@@ -1,7 +1,10 @@
 import React from 'react'
+import Layout from './Layout'
 
 function GetInTouch() {
   return (
+    <>
+    <Layout>
     <section className="section6" id="contact">
     <h2 className="title">Get in Touch</h2>
     <div className="socials">
@@ -22,6 +25,8 @@ function GetInTouch() {
       </div>
     </a>
   </section>
+  </Layout>
+  </>
   )
 }
 

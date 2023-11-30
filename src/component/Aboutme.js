@@ -1,8 +1,11 @@
 import React from 'react'
 import { images } from '../assets/image'
+import Layout from './Layout'
 
 function Aboutme() {
   return (
+    <>
+    <Layout>
     <section className="section5" id="about">
     <section className="about-me">
       <h2 className="title">About me</h2>
@@ -32,6 +35,8 @@ function Aboutme() {
       </div>
     </section>
   </section>
+  </Layout>
+  </>
   )
 }
 

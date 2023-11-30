@@ -1,8 +1,13 @@
 import React from 'react'
 import { images } from '../assets/image'
+import Header from './Header'
+import Footer from './Footer'
+import Layout from './Layout'
 
 function Hero() {
   return (
+    <>
+  <Layout>
     <section className="section1" id="hero">
         <div className="hero">
           <div className="left">
@@ -21,6 +26,8 @@ function Hero() {
           </div>
         </div>
       </section>
+      </Layout>
+      </>
   )
 }
 

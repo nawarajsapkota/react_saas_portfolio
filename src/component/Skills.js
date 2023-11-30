@@ -1,7 +1,11 @@
 import React from 'react'
+import Header from './Header'
+import Layout from './Layout'
 
 function Skills() {
   return (
+    <>
+   <Layout>
     <section className="section3" id="skills">
     <div className="skills_container">
       <div>
@@ -22,6 +26,9 @@ function Skills() {
       </div>
     </div>
   </section>
+  </Layout>
+  
+  </>
   )
 }
 

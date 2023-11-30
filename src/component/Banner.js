@@ -1,7 +1,10 @@
 import React from 'react'
+import Layout from './Layout'
 
 function Banner() {
   return (
+    <>
+    <Layout>
     <section className="section2">
     <div className="info-container">
       <div className="info-list">
@@ -37,6 +40,8 @@ function Banner() {
       </div>
     </div>
   </section>
+  </Layout>
+  </>
   )
 }
 
