@@ -23,6 +23,7 @@ function Header() {
                     <li><Link to="/Projects">Projects</Link></li>
                     <li><Link to="/aboutme">About</Link></li>
                     <li><Link to="/getInTouch">Contact</Link></li>
+
                 </ul>
             </div>
         </header>
